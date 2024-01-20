@@ -13,8 +13,7 @@ body{
 }
 
 .main{
-    background-image: url("assets/images/bg2.jpg");
-    
+    background-image: url("assets/images/bg.jpg");
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
@@ -226,6 +225,12 @@ footer{
     max-width: 60vw;
     padding: 14px;
 
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    gap: 25px;
 }
 
 
